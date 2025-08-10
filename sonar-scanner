@@ -1,0 +1,1 @@
+docker run --rm -v "${PWD}:/usr/src" -e SONAR_HOST_URL="http://13.220.194.158:9000" -e SONAR_TOKEN="sqp_fb094c51920f6eb2b5c36ddcc9a43be767785dae" sonarsource/sonar-scanner-cli
