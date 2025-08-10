@@ -8,3 +8,4 @@ function hello(name) {
 }
 
 hello(); // Should warn about missing argument
+module.exports = hello;
