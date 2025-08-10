@@ -1,0 +1,1 @@
+docker run -d -p 9000:9000 -v %cd%:/opt/sonarqube/temp/report sonarqube:lts 
